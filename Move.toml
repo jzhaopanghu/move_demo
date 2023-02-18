@@ -1,0 +1,12 @@
+[package]
+name = "move_demo"
+version = "0.0.0"
+
+[dependencies]
+AptosStdlib = { local = "../aptos-stdlib" }
+MoveStdlib = { local = "../move-stdlib" }
+
+
+[addresses]
+std =  "0x1"
+sender =  "0x01"
